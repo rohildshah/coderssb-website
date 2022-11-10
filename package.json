@@ -6,7 +6,9 @@
   "scripts": {
     "build": "next build",
     "start": "next start -p $PORT",
-    "dev": "next dev"
+    "dev": "next dev",
+    "export": "next build && next export",
+    "deploy": "npm run export && touch ./out/.nojekyll && gh-pages -d out -t true"
   },
   "engines": {
     "node": "14.x"
@@ -45,5 +47,7 @@
     "serialize-javascript": ">=3.1.0",
     "use-mailchimp-form": "^1.1.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
