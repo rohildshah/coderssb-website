@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start -p $PORT --openssl-legacy-provider start",
     "dev": "next dev"
   },
   "engines": {
@@ -44,6 +44,5 @@
     "reactstrap": "^8.8.0",
     "serialize-javascript": ">=3.1.0",
     "use-mailchimp-form": "^1.1.2"
-  },
-  "devDependencies": {}
+  }
 }
