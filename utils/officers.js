@@ -41,5 +41,40 @@ export default [
         description:"Hi my name is Aditi Phatak and I am a second year undergraduate majoring in computer science. During my free time, I enjoy crocheting, going on sunrise runs at the beach, and binge watching shows.",
         image: "Officers/aditi.jpg",
     },
+    {
+        id: "7",
+        name: "Ethan Yuan",
+        role: "General Officer",
+        description:"Hey all! My name is Ethan Yuan and I’m a first year Computer Science major! In my free time, I love working out, playing basketball, and vibing to music. Looking forward to having a great year!",
+        image: "Officers/ethan.jpg",
+    },
+    {
+        id: "8",
+        name: "Jennifer Zhu",
+        role: "General Officer",
+        description:"Hi! My name is Jennifer Zhu and I'm a freshmen majoring in Computer Science. In my spare time, I love painting, reading, and grabbing coffee with friends. Excited to meet everyone!",
+        image: "Officers/jennifer.jpg",
+    },
+    {
+        id: "9",
+        name: "Rohil Shah",
+        role: "General Officer",
+        description:"Hey everyone! My name is Rohil Shah and I'm a first-year majoring in computer science. I'm also interested in physics, linguistics, and mathematics, especially their overlap with CS. In my free time I enjoy reading and learning languages.",
+        image: "Officers/rohil.JPG",
+    },
+    {
+        id: "10",
+        name: "Shamita Gurusu",
+        role: "General Officer",
+        description:"Hello everyone! My name is Shamita and I am a second-year computer science major interested in NLP(Natural Language Processing) and computer vision. I am an avid sunset and chocolate connoisseur and love all things outdoors(hiking, diving, kayaking, etc.). Looking forward to meeting y'all this year!",
+        image: "Officers/shamita.png",
+    },
+    {
+        id: "11",
+        name: "Eugene Wong",
+        role: "General Officer",
+        description:"Hihi! My name is Eugene and I am a first-year computer science major. Any free time I have, you can expect me to be cubing, playing TFT, drinking boba, and binging k-dramas. It's great to meet you all!",
+        image: "Officers/eugene.jpg",
+    }
   ];
   
