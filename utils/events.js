@@ -10,35 +10,35 @@ export const events = [
   {
     id: 0,
     title: "Social & Intro to W21",
-    start: new Date(2021, 0, 8, 19, 0, 0),
-    end: new Date(2021, 0, 8, 20, 0, 0),
-    url: "https://www.facebook.com/events/189047422942078",
+    start: new Date(2022, 10, 22, 19, 0, 0),
+    end: new Date(2022, 10, 22, 20, 0, 0),
+    url: "https://www.coderssb.com/ProjectSeries",
     info:
       "Join us for a fun night of games and and learn more about our upcoming events for the Winter",
-    pic: "Events/Winter2021/winter_social.png",
+    pic: "Events/Fall2022/tech_interview_prep_s2.png",
     alt:
       "Join us for our winter social to have the chance to win 3 amazon gift cards"
   },
   {
     id: 1,
     title: "Linkedin & Resume Workshop",
-    start: new Date(2021, 1, 2, 18, 30, 0),
-    end: new Date(2021, 1, 2, 19, 30, 0),
-    url: "https://www.facebook.com/events/796825201106990/",
+    start: new Date(2022, 10, 17, 19, 0, 0),
+    end: new Date(2022, 10, 17, 19, 30, 0),
+    url: "https://www.coderssb.com/ProjectSeries",
     info:
       "Click to learn more about our Linkedin & Resume workshop. Stop by for 1:1 feedback",
-    pic: "Events/Fall2020/coffee_talk_microsoft.png",
+    pic: "Events/Fall2022/mock_interview_s1.png",
     alt: "Linkedin & Resume workshop graphic"
   },
   {
     id: 2,
     title: "Project Series: Intro to React",
-    start: new Date(2021, 0, 14, 19, 0, 0),
-    end: new Date(2021, 0, 14, 20, 30, 0),
-    url: "https://fb.me/e/1Yhdv4oB4",
+    start: new Date(2022, 10, 11, 19, 0, 0),
+    end: new Date(2022, 10, 11, 20, 30, 0),
+    url: "https://www.coderssb.com/ProjectSeries",
     info:
       "Project Series Workshop 1: Creating and hosting a React application.",
-    pic: "ProjectSeries/workshop1-c.png",
+    pic: "Events/Fall2022/mock_interview_s2.png",
     alt: "Introduction to react project series"
   },
   {

@@ -1,3 +1,22 @@
 .image-gallery {
   width: 100%;
 }
+img.image-gallery-image {
+  filter: brightness(65%);
+}
+
+h1 {
+  font-size: 4em;
+  font-family:'Quicksand', sans-serif;
+  font-weight: 600;
+}
+p {
+  font-size: 1.15em;
+}
+
+.title-text {
+  color: white;
+  position: absolute;
+  top: 17em;
+  left: 11em;
+}

@@ -6,6 +6,13 @@ const gallery_images = [
     tumbnailAlt: "logo.png"
   },
   {
+    original: "Header/resized/workshop.png",
+    thumbnail: "Header/resized/workshop.png",
+    originalAlt: "logo.png",
+    tumbnailAlt: "logo.png"
+  }
+  ,
+  {
     original: "Header/resized/sunset.png",
     thumbnail: "Header/resized/sunset.png",
     originalAlt: "logo.png",
