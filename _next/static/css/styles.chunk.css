@@ -10548,12 +10548,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .paragraph-text {
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-    color: black;
-}
-
-.paragraph-text {
-    font-family: 'Quicksand', sans-serif;
     font-size: 17px;
     color: black;
 }
@@ -10581,7 +10575,6 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 17px;
     color: darkcyan;
     text-decoration: none;
-    word-break: break-all;
 }
 
 /* Project series */
@@ -11016,25 +11009,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .image-gallery {
   width: 100%;
-}
-img.image-gallery-image {
-  filter: brightness(65%);
-}
-
-h1 {
-  font-size: 4em;
-  font-family:'Quicksand', sans-serif;
-  font-weight: 600;
-}
-p {
-  font-size: 1.15em;
-}
-
-.title-text {
-  color: white;
-  position: absolute;
-  top: 17em;
-  left: 11em;
 }
 
 .all {
