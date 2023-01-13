@@ -18,12 +18,10 @@ function NewResource(props) {
     <div style={{ padding: 0, margin: 0 }}>
       <div
         style={{
-          display: "inline-block",
-          float: "left",
           width: "8%",
-          marginTop: 30,
-          marginRight: 25
+          marginRight: 10
         }}
+        className="w3-hide-small w3-col"
       >
         <img
           src={props.resource.image}
@@ -33,7 +31,13 @@ function NewResource(props) {
           height="80"
         />
       </div>
-      <div style={{ display: "inline-block", float: "left", width: "80%" }}>
+      <div
+        style={{
+          width: "85%",
+          marginTop: "10px"
+        }}
+        className="w3-rest w3-content"
+      >
         <h2 className="h2">{props.resource.name}</h2>
         <p className="paragraph-text">{props.resource.description}</p>
         {listOfLinks}
