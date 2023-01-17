@@ -7,7 +7,7 @@ import "../../css/Header.css";
 
 export default function Header() {
   return (
-    <div>
+    <div className = "head-text">
       <ImageGallery
         autoPlay={true}
         showPlayButton={false}
@@ -20,14 +20,13 @@ export default function Header() {
         showFullscreenButton={false}
         items={gallery_images}
       />
-
-      <div className="title-text">
-        <h1>
-          Welcome to <br></br> Coders SB!
-        </h1>
-        <hr />
-        <p>A student org at UCSB that strives to help <br></br>students develop the skills to build real-world,<br></br>impactful software applications.</p>
+      <div class = 'text-on-image'>
+      <h1>
+           Welcome to <br></br> Coders SB!
+         </h1>
+         <p class = 'full-text'
+          >A student org at UCSB that strives to help <br></br>students develop the skills to build real-world,<br></br>impactful software applications.</p>
+       </div>
       </div>
-    </div>
   );
 }

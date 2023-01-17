@@ -5,7 +5,7 @@ export default function EventCard(props) {
 
   return (
     <figure onClick={() => open(props.url)}>
-      <img src={props.pic} style={{width:330, height: 330}}/>
+      <img src={props.pic}/>
       <figcaption>{props.info}</figcaption>
     </figure>
   );
