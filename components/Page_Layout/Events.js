@@ -27,7 +27,7 @@ function DateConv(dateObj) {
 export default function Events() {
   return (
     <div>
-      <div className="all" style={{ margin:'0'}}>
+      <div className="all" style={{ margin:'0', fontSize: '1vm'}}>
         <EventCard
           url={events[0].url}
           pic={events[0].pic}
@@ -38,7 +38,6 @@ export default function Events() {
           pic={events[1].pic}
           info={DateConv(events[1].start) + " Click to learn more!"}
         />
-
         <EventCard
           url={events[2].url}
           pic={events[2].pic}
