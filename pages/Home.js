@@ -13,7 +13,7 @@ export default function HomePage() {
         <Events />
       <hr />
       </div>
-      <div className="w3-content" style={{ maxWidth: '1100px',marginBottom: '100px',marginTop:'50px' }}>
+      <div className="w3-content" style={{ maxWidth: '1100px',marginTop:'50px' }}>
         <h1 className="about-header">
           {" "}
           Our Mission{" "}
