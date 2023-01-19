@@ -171,7 +171,25 @@
     font-weight: 700;
 }
 
+.slick-slide img {
+    margin: auto;
+    margin-bottom: 0%;
+    left: auto;
+    max-width: auto;
+    max-height: auto;
+}
+
+.slick-dots {
+    top: -30px;
+}
+
+.sponsor-img {
+    margin-top: 0;
+}
 
 @media (max-width: 700px) {
     .events { display:none }
+    .slick-slide img { max-width:90%; max-height: auto; } 
+    .slick-dots { top:-10px; }
+    .sponsor-img { margin-top: 10%; }
 }

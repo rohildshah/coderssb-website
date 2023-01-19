@@ -13,7 +13,7 @@ export default function HomePage() {
         <Events />
       <hr />
       </div>
-      <div className="w3-content" style={{ maxWidth: '1100px',marginBottom: '100px',marginTop:'50px' }}>
+      <div className="w3-content" style={{ maxWidth: '1100px',marginTop:'50px' }}>
         <h1 className="about-header">
           {" "}
           Our Mission{" "}
@@ -32,10 +32,10 @@ export default function HomePage() {
           welcoming to students of all ages and skill-sets, from freshmen with
           no experience to seniors with various internships and hackathon
           awards. Come to our next meeting to join to get started! Let's build
-          something! Here are the companies we've worked with
+          something! Here are the companies we've worked with:
         </p>
+        <Companies />
       </div>
-      <Companies />
       <hr />
 
       {/* <div style={{ width: "100%", paddingLeft: 50, paddingRight: 50 }}>
