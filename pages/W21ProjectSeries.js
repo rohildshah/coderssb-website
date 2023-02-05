@@ -1,10 +1,10 @@
-import ProjectSeriesInfo from "../components/Page_Layout/ProjectSeriesInfo";
+import W21ProjectSeriesInfo from "../components/Page_Layout/W21ProjectSeriesInfo";
 import Layout from "../components/Website_Layout/Layout";
 import BackgroundImage from "../components/Page_Layout/BackgroundImage";
 import "../css/index.css";
 
 
-export default function ProjectSeriesPage() {
+export default function W21ProjectSeriesPage() {
   return (
     <Layout setGoogleId={id => setGoogleId(id)}>
       <div>
@@ -17,7 +17,7 @@ export default function ProjectSeriesPage() {
         <hr />
 
         <div className="w3-content" style={{ maxWidth: 1100, marginBottom: 200}}>
-          <ProjectSeriesInfo />
+          <W21ProjectSeriesInfo />
         </div>
         <br></br>
       </div>

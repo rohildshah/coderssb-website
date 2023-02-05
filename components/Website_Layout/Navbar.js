@@ -60,7 +60,7 @@ export default function navbar(props) {
           {/* <Link href="/Merchandise">
             <a className="tab">Merchandise</a>
           </Link> */}
-          <Link href="/ProjectSeries">
+          <Link href="/W21ProjectSeries">
             <a className="tab">Project Series</a>
           </Link>
           {/* Uncomment to add dropdown (delete duplicate link below) */}
@@ -126,7 +126,7 @@ export default function navbar(props) {
         <Link href="/Resources">
           <a className="tab w3-bar-item">Useful Resources</a>
         </Link>
-        <Link href="/ProjectSeries">
+        <Link href="/W21ProjectSeries">
           <a className="tab w3-bar-item">Project Series</a>
         </Link>
         <Link href="/Calendar">
